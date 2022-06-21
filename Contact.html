@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Con Tech Blog</title>
+    <link rel="icon" href="Assets/title-logo.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- Nav bar Design -->
+    <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
+        <div class="container-fluid">
+            <img src="Assets/website-logo.png" width="45" alt="" class="d-inline-block align-middle mr-2">
+            <a class="navbar-brand" style="color: white;" href="/Blog.html">ConTech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;" aria-current="page" href="/Blog.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;" aria-current="page" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;" aria-current="page" href="/projects.html">projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: darkblue;" aria-current="page"
+                            href="/contact.html">Contact us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: white;" href="/Blog.html" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Services.html">Web Development</a></li>
+                            <li><a class="dropdown-item" href="Services.html">Android Development</a></li>
+                            <li><a class="dropdown-item" href="Services.html">Blockchain payments Development</a></li>
+                            <li><a class="dropdown-item" href="Services.html">AI Automation</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Contact.html">Support</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Pricing.html">View Packages</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search here" aria-label="Search">
+                    <button class="btn" style="background-color: #e3f2fd;" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="contanier my-4">
+        <div class="container mx-10">
+            <h4>Contact Us</h4><br><br>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"><b>Email address</b></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div><br>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Are you a?</option>
+                <option value="1">Professor</option>
+                <option value="2">Coder/Programmer</option>
+                <option value="3">Student</option>
+                <option value="4">Business Consultant</option>
+            </select><br>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Select Your Query</option>
+                <option value="1">Android App Development</option>
+                <option value="2">Web App Development</option>
+                <option value="3">Blockchain Transaction System</option>
+                <option value="4">AI Automation</option>
+            </select><br>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"><b>Elaborate your Concern</b></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write something here"
+                    rows="4"></textarea><br>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"><b>Tell us something about yourself</b></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="I am a Tech enthusiast...."
+                    rows="4"></textarea><br>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    New to our site
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                <label class="form-check-label" for="flexCheckChecked">
+                    Our partner
+                </label>
+            </div><br>
+            <button class="btn btn-primary">Submit</button>
+        </div><br>
+        <hr class="featurette-divider"><br>
+    </div>
+
+
+
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p><b>© 2022–2023 ConTech Inc · </b><a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer><br><br>
+
+
+    <!-- JavaScript Links -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
